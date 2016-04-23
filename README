@@ -1,0 +1,37 @@
+					PPL MiniProject
+
+Title: Biometric Analysis              
+
+Group Members:
+	Vinaya Patil (111403031)
+	Shantanu Sharma (111403042)
+	Tejaswa Gavankar(111403048)
+	Avichal Agrawal(111403058)
+
+Software Requirements: Python 3, Gtk 3, matplotlib.pyplot, xlrd
+
+Language: Python 3.0
+
+Platform: Linux
+
+Description about project:
+
+Our software takes basic biometric information from users and gives an analysis to the user based on ideal guidelines.
+
+Using xlrd it imports our database which has user attributes (sex, height, weight, water, intensity and time spent on physical activity, Awareness about the exercise, adequate sleep).
+
+This imported data is used to plot scatter-plot graphs for eleven most meaningful graphs, which pops up in a new window. This graph execution is accomplished using matplotlib package and the pyplot library. The scaling of the graph can be adjusted in the pop up window.
+
+The analysis given based on the user data is shown in a pop-up window. The program tells you whether your BMI is alright, whether you are overweight, sleep is adequate based on the amount of exercise and whether you are engaging in sufficient physical activity.
+
+Running:
+
+Open terminal
+Install pip3
+Install matplotlib
+Install xlrd
+Move to appropriate Directory
+Type "python miniproject.py"
+Import database (xlsx format, see database.xlsx example)
+*Note: Once database file is selected hit enter, close pop-up window manually.
+
